@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+}
+
+.words{
+    padding: 40px 15px;
+    height: 120px;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 120px;
+    color: #fff;
+    padding: 18px 45px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background: rgba(204, 202, 202, 0.377);
+    border-radius: 6px;
+}
+
+.One {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Back_Ground.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #fff;
+}
+
+.Two {
+    width: 100%;
+    height: 200vh;
+    background-image: url(./images/galaxy-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #fff;
+}
+
+.FBA_s2 {
+    max-width: 550px;
+    float: right;
+    padding-right: 9%;
+    padding-top: 16%;
+}
+
+.h1_1 {
+    padding-left: 8%;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+.table_one caption {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.para_1 {
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 10%;
+    color: #fff;
+    line-break:strict;
+    padding-bottom: 5%;
+}
+
+.table_one {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.table_one table, th,td {
+    border: 2px solid white;
+    color: #fff;
+}
+
+.table_one th {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.table_one td {
+    padding: 40px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.Three {
+    width: 100%;
+    height: 200vh;
+    background-image: url(./images/Section_3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #fff;
+}
+
+.table_two caption {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table_two {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 500;
+}
+
+.table_two table, th,td {
+    border: 2px solid white;
+    color: #fff;
+}
+
+.table_two th {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table_two td {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.FBA_sponsor {
+    max-width: 700px;
+    padding-left: 13%;
+}
+
+.FBA_sponsor_2 {
+    max-width: 700px;
+    padding-top: 7%;
+    padding-right: 10%;
+
+}
+
